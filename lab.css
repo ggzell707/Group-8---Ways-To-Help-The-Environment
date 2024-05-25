@@ -46,8 +46,39 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* CSS that makes buttons' text invisible upon entering site */
+
 #recycleText {
     display: none;
 }
+
+#waterText {
+    display: none;
+}
+
+#postText {
+    display: none;
+}
+
+#susText {
+    display: none;
+}
+
+#voteText {
+    display: none;
+}
+
+#boyText {
+    display: none;
+}
+
+#orgText {
+    display: none;
+}
+
+#repText {
+    display: none;
+}
+
 
 /* Button color: #F1F3BB */

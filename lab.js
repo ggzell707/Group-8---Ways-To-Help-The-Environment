@@ -1,5 +1,51 @@
+// Individual Buttons
+
 $(document).ready(function() {
     $('#recycleButton').on('click', function() {
         $('#recycleText').slideToggle('slow'); // Toggle the visibility of the paragraph
+    });
+});
+
+$(document).ready(function() {
+    $('#waterButton').on('click', function() {
+        $('#waterText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#postButton').on('click', function() {
+        $('#postText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#susButton').on('click', function() {
+        $('#susText').slideToggle('slow');
+    });
+});
+
+// Institutional Buttons
+
+$(document).ready(function() {
+    $('#voteButton').on('click', function() {
+        $('#voteText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#boyButton').on('click', function() {
+        $('#boyText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#orgButton').on('click', function() {
+        $('#orgText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#repButton').on('click', function() {
+        $('#repText').slideToggle('slow');
     });
 });
