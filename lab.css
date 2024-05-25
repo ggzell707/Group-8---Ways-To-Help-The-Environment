@@ -1,14 +1,42 @@
 body {
-    background-color:cadetblue
+    background-color:rgb(132, 209, 246);
+        /* background-color: #86d1f6; */
 }
 
 .individual {
-    background-color: rgb(255, 140, 0);
+    background-color: #86f6aa;
+    /*  background-color: rgb(13, 246, 170); */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px cadetblue;
 }
 
 .institutional {
-    background-color: chartreuse;
+    /*    background-color: #c2f6b6; */
+    background-color: rgb(194, 246, 134);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px yellowgreen;
 }
+
+.individual-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #80bc2b;
+    background-color: #D3FCBD;
+    /* background-color: rgb(244, 225, 183); */
+}
+
+.insitutional-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #80bc2b;
+    background-color: #ecef9e;
+    /* background-color: rgb(244, 225, 183); */
+}
+
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -21,3 +49,5 @@ p {
 #recycleText {
     display: none;
 }
+
+/* Button color: #F1F3BB */
