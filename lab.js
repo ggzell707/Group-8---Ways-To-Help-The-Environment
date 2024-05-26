@@ -24,6 +24,12 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $('#energyButton').on('click', function() {
+        $('#energyText').slideToggle('slow');
+    });
+});
+
 // Institutional Buttons
 
 $(document).ready(function() {
@@ -47,5 +53,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#repButton').on('click', function() {
         $('#repText').slideToggle('slow');
+    });
+});
+
+$(document).ready(function() {
+    $('#localButton').on('click', function() {
+        $('#localText').slideToggle('slow');
     });
 });
