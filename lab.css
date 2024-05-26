@@ -27,6 +27,9 @@ body {
     border: solid 1px #80bc2b;
     background-color: #D3FCBD;
     /* background-color: rgb(244, 225, 183); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .institutional-section {
@@ -35,6 +38,9 @@ body {
     border: solid 1px #80bc2b;
     background-color: #ecef9e;
     /* background-color: rgb(244, 225, 183); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
