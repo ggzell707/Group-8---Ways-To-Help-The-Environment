@@ -42,6 +42,11 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2f4f50;
+}
+
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -50,35 +55,75 @@ p {
 
 #recycleText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #waterText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #postText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #susText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #voteText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #boyText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #orgText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #repText {
     display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-
-/* Button color: #F1F3BB */
+.button {
+    background-color: #f1f3bb;
+    border: double gray;
+    color: gray;
+    padding: 0.5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    width: 50%;
+    height: auto;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
