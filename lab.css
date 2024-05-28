@@ -94,6 +94,13 @@ p {
     text-align: left;
 }
 
+#energyText {
+    display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
 #boyText {
     display: none;
     padding: 10px;
@@ -109,6 +116,13 @@ p {
 }
 
 #repText {
+    display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#localText {
     display: none;
     padding: 10px;
     margin-bottom: 10px;
