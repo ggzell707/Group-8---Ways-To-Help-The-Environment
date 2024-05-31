@@ -43,7 +43,7 @@ body {
     align-items: center;
 }
 
-/* Text font*/
+/* Text font */
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -65,6 +65,20 @@ p {
 ol {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
+}
+
+/* Links color */
+a {
+    color: #2f4f50;
+    text-decoration: underline; /* Remove underlines */
+  }
+  
+a:hover {
+    color: #ec843e;
+}
+  
+a:visited {
+    color: #2f4f50;
 }
 
 /* CSS that makes buttons' text invisible upon entering site */
