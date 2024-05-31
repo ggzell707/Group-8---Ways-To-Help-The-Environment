@@ -43,7 +43,7 @@ body {
     align-items: center;
 }
 
-
+/* Text font*/
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -53,8 +53,18 @@ h2 {
     color: #2f4f50;
 }
 
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
 }
 
 /* CSS that makes buttons' text invisible upon entering site */
