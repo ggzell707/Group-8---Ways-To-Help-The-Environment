@@ -61,3 +61,5 @@ $(document).ready(function() {
         $('#localText').slideToggle('slow');
     });
 });
+
+$(".hidey-bit").hide()
