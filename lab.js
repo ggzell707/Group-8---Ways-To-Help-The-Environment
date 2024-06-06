@@ -62,4 +62,4 @@ $(document).ready(function() {
     });
 });
 
-$(".hidey-bit").hide()
+$(".hidey-bit").hide();
