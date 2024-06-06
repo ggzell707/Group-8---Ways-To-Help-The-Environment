@@ -15,12 +15,14 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#postButton').on('click', function() {
         $('#postText').slideToggle('slow');
+        $(".hidey-bit").hide();
     });
 });
 
 $(document).ready(function() {
     $('#susButton').on('click', function() {
         $('#susText').slideToggle('slow');
+        $(".hidey-bit").hide();
     });
 });
 
