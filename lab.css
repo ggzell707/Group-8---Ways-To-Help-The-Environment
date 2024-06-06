@@ -28,6 +28,7 @@ body {
     background-color: #D3FCBD;
     /* background-color: rgb(244, 225, 183); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -39,6 +40,7 @@ body {
     background-color: #ecef9e;
     /* background-color: rgb(244, 225, 183); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
