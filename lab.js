@@ -1,54 +1,92 @@
 // Buttons
-
 $(document).ready(function() {
     $('#recycleButton').on('click', function() {
-        $('#recycleText').slideToggle('slow'); // Toggle the visibility of the paragraph
-    });
-
+    if ($('#recycleText').is(':visible')) {
+      $('#recycleText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#recycleText').slideDown('slow');
+    }
+    });  
+  
     $('#waterButton').on('click', function() {
-        $('#waterText').slideToggle('slow');
+    if ($('#waterText').is(':visible')) {
+      $('#waterText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#waterText').slideDown('slow');
+    }
     });
-
+  
     $('#postButton').on('click', function() {
-        $(".hidey-bit").hide();
-        $('#postText').slideToggle('slow');
-    });
-
-    // $('#postButton').on('click', function() {
-    //     if ($('#postText').is(':visible')) {
-    //         $('#postText').slideUp('slow');
-    //     } else {
-    //         $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
-    //         $('#postText').slideDown('slow');
-    //     }
-    // });
-
+    if ($('#postText').is(':visible')) {
+      $('#postText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#postText').slideDown('slow');
+    }
+    }); 
+  
     $('#susButton').on('click', function() {
-        $(".hidey-bit").hide();
-        $('#susText').slideToggle('slow');
-    });
-
+    if ($('#susText').is(':visible')) {
+      $('#susText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#susText').slideDown('slow');
+    }
+    });      
+  
     $('#energyButton').on('click', function() {
-        $('#energyText').slideToggle('slow');
-    });
+    if ($('#energyText').is(':visible')) {
+      $('#energyText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#energyText').slideDown('slow');
+    }
+    });  
 
     $('#voteButton').on('click', function() {
-        $('#voteText').slideToggle('slow');
-    });
+    if ($('#voteText').is(':visible')) {
+      $('#voteText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#voteText').slideDown('slow');
+    }
+    });  
 
     $('#boyButton').on('click', function() {
-        $('#boyText').slideToggle('slow');
+    if ($('#boyText').is(':visible')) {
+      $('#boyText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#boyText').slideDown('slow');
+    }
     });
 
     $('#orgButton').on('click', function() {
-        $('#orgText').slideToggle('slow');
+    if ($('#orgText').is(':visible')) {
+      $('#orgText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#orgText').slideDown('slow');
+    }
     });
 
     $('#repButton').on('click', function() {
-        $('#repText').slideToggle('slow');
+    if ($('#repText').is(':visible')) {
+      $('#repText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#repText').slideDown('slow');
+    }
     });
-
+  
     $('#localButton').on('click', function() {
-        $('#localText').slideToggle('slow');
-    });
+    if ($('#localText').is(':visible')) {
+      $('#localText').slideUp('slow');
+    } else {
+        $(".hidey-bit").slideUp('slow'); // Hide all sections with animation
+        $('#localText').slideDown('slow');
+    }
+    });  
 });
