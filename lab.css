@@ -47,7 +47,10 @@ body {
 
 /* Text font */
 h1, h3, h4 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h2 {
@@ -56,8 +59,10 @@ h2 {
 }
 
 p, ol, ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.5;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Links color */
