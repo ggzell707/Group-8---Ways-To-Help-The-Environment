@@ -30,8 +30,11 @@
 
 </head>
 <body>
-    <main id="content">
-        <h1 align="center">Simple Ways You Can Help the Environment!</h1>
+  <div id="introAnimation">
+    <div class="big-ten">10</div>
+  </div>
+    <main id="content" style-"display: none;">
+        <h1 id="mainTitle" align="center">10 Simple Ways You Can Help the Environment!</h1>
         <section class="individual">
             <h1>Individual Ways</h1>
             <div class="individual-section" id="recycling-section">
@@ -333,6 +336,13 @@
                     </section>
             </div>          
         </section>
+        <div id="enviroData">
+          <h2>Check how you can help your city!</h2>
+          <input type="text" id="cityName" placeholder="Enter City Name">
+          <button onclick="fetchEnvironmentalData()">Check Issue</button>
+          <div id="issueDisplay"></div>
+      </div>
+      
     </main>
 
 
